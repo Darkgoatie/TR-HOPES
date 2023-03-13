@@ -1,0 +1,35 @@
+
+#CarouselText {
+  transform: translateY(-10%);
+  color: white;
+}
+
+#CarouselText:hover {
+  transition: transform 330ms ease-in-out;
+  transform: translateY(-18%);
+}
+
+#CarouselText a {
+  font-size: 400%;
+  text-decoration: none;
+  color: white;
+}
+
+img.carouselImage {
+  margin-bottom: -10%;
+  }
+
+@media only screen and (max-width: 600px) {
+  div#carouselExampleControls {
+    height: 90vh;
+  }
+
+  div#carouselExampleControls img {
+    min-height: 95vh;
+    object-fit: cover;
+  }
+    
+  span.carouselCaption {
+    font-size: 0.43333em;
+  }
+}

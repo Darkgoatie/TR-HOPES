@@ -1,0 +1,39 @@
+
+@media only screen and (min-width: 601px) {
+  .sponsorLinkText {
+    top: 60%;
+    left: 10%;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+  a.sponsorLinkText {
+    text-align: center;
+    max-width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    bottom: 2vh;
+  }
+}
+
+.sponsorLinkText {
+  color: white;
+  position: absolute;
+}
+
+.sponsorLinkText:hover {
+  color: white;
+  transition: transform 330ms ease-out;
+  transform: translateY(-20%);
+}
+
+#sponsors {
+  height: auto;
+  background-color: #176E82;
+}
+
+#sponsors img {
+  max-width: 100%;
+  max-height: 100%;
+}

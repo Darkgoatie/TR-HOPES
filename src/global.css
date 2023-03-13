@@ -1,0 +1,86 @@
+body::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+  
+  
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  scroll-behavior: smooth;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  
+}
+
+.dark {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+body h1 {
+  text-align: center;
+  
+}
+
+body p {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.child {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.underlineOnHover {
+  display: inline-block;
+  position: relative;
+}
+
+.underlineOnHover::after {  
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #21a0bd;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underlineOnHover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:100px;
+  font-weight: 320;
+  font-size:60px;
+
+}
+
+@media(max-width: 574px) {
+  .header{
+    font-size:30px;
+  }
+}
+
+.valuesphere {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:100px;
+}
+

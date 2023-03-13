@@ -1,0 +1,15 @@
+{
+    "brands": [
+        {"img": "/Sponsors/Pilz.jpg", "link": "https://en.wikipedia.org/wiki/Pilz_(company)"},
+        {"img": "/Sponsors/Fyukselfoundation.png", "link": "https://www.fikretyukselfoundation.org/"},
+        {"img": "/Sponsors/TurkishCargo.png", "link": "https://www.turkishcargo.com.tr/"},
+        {"img": "/Sponsors/Silverline.svg", "link": "https://silverline.com/"},
+        {"img": "/Sponsors/Dow.svg", "link": "https://www.dow.com/en-us"},
+        {"img": "/Sponsors/Keramik.png", "link": "https://www.keramik.com.tr/"},
+        {"img": "/Sponsors/WebTekno.jpg", "link": "https://www.webtekno.com/"}
+    ],
+    "sponsorInfo": {
+        "EN": "https://drive.google.com/file/d/1OZzpyavkSPj_OKAjaP1_QzT9f8tABGnS/view?usp=sharing",
+        "TR": "https://drive.google.com/file/d/1vBEQ4eSTjT0pISn5Qdb0kJbrsoLQmFcY/view?usp=sharing"
+    }
+}
