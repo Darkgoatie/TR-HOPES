@@ -6,3 +6,16 @@
     font-size:10px;
   }
 }
+
+#Members, #Members p, #Members li { 
+  white-space: nowrap;
+}
+
+a.memberLink:not(:hover) {
+  text-decoration: none;
+  color: white;
+}
+
+a.memberLink:hover {
+  color: white;
+}
